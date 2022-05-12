@@ -7,6 +7,14 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
+  inputs."witai-master".dir   = "master";
+  inputs."witai-master".owner = "nim-nix-pkgs";
+  inputs."witai-master".ref   = "master";
+  inputs."witai-master".repo  = "witai";
+  inputs."witai-master".type  = "github";
+  inputs."witai-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."witai-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
