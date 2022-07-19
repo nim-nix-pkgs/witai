@@ -69,11 +69,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1658018376,
-        "narHash": "sha256-NGvWROwU5LARQFwqWt/ZikdQmI7D7mze8/PdisU7BQY=",
+        "lastModified": 1658032332,
+        "narHash": "sha256-hERjOzAkx9J4LdMqV3AJEcu7oNUu3g0IFJmSZoK3J3E=",
         "owner": "nim-nix-pkgs",
         "repo": "witai",
-        "rev": "e83018e7aff2af1cd15df1a747ee143d3482a2d9",
+        "rev": "d1ea1bb473350ba03f9657345322954cde697e86",
         "type": "github"
       },
       "original": {
